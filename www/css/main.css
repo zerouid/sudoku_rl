@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+table.sudoku {
+    margin: 1em auto;
+}
+
+table.sudoku td {
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    text-align: center;
+}
+
+table.sudoku td:first-child {
+    border-left: solid;
+}
+
+table.sudoku td:nth-child(3n) {
+    border-right: solid;
+}
+
+table.sudoku tr:first-child {
+    border-top: solid;
+}
+
+table.sudoku tr:nth-child(3n) td {
+    border-bottom: solid;
+}
