@@ -1,4 +1,3 @@
-/*jslint node: true*/
 var http = require('http'),
     url = require('url'),
     fs = require('fs'),

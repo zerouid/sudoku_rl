@@ -1,6 +1,7 @@
 {
     "jslint.options": {
-        "node": true,
-        "es6": true
+        "browser": true,
+        "es6": true,
+        "node": true
     }
 }
